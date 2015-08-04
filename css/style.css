@@ -1,0 +1,335 @@
+.wrapper {
+    width: 100%;
+    background-image: url(images/background_wrapper.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+ }
+
+		/*Begin block header*/
+
+.wrapper .header {
+    width: 980px;
+    height: 215px;
+    margin: auto;
+    position: relative;
+    background-image: url(images/call.png);
+    background-repeat: no-repeat;
+    background-position: 265px center;
+}
+
+/*header classes*/
+
+.header .nav_top {
+    width: 400px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.header .nav_top_line {
+    float: right;
+    background-image: url(images/delimiter_nav.png);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+}
+
+.header li:last-child {
+    background: none;
+}
+
+.header .nav_top_link {
+    font: 12px Arial, sans-serife;
+    color: #2ba2b8;
+    text-decoration: none;
+    padding: 1px 14px 1px 14px;
+}
+
+.header .logo {
+   position: absolute;
+   left: 15px;
+   z-index: 5;
+}
+
+.header .main_nav {
+    height: 120px;
+    width: 980px;
+    background-image: url(images/background_nav.png);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    position: absolute;
+    bottom: 0;
+}
+
+.header .nav_list {
+    width: 592px;
+    margin: auto;
+    padding-top: 68px;
+    overflow: hidden;
+}
+
+.header .nav_line {
+    float: left;
+    height:34px;
+}
+
+.header .nav_link {
+    display: block;
+    height: 25px;
+    font: bold 16px Arial, sans-serife;
+    color: #34670f;
+    text-shadow:3px 3px 9px #a1d636;
+    text-decoration: none;
+    padding: 9px 20px 1px 20px;
+}
+
+.header .nav_link:hover {
+    color: #263914;
+}
+
+.header .active_link {
+    color: #ffffff;
+    margin-top: 6px;
+    padding-top: 3px;
+    height: 22px;
+    background: -webkit-linear-gradient(#7AB81A,#234609); /* For Safari 5.1 to 6.0 */
+    background:linear-gradient(#7AB81A,#234609);
+    border-radius: 0 0 5px 5px;
+}
+
+		/*End block header*/
+
+.wrapper .wrapper-content {
+    width: 980px;
+    margin: auto;
+    padding-top:20px;
+}
+
+		/*Begin block sidebar*/
+
+.wrapper-content .sidebar {
+	float: left;
+}
+
+/*sidebar classes*/
+
+.sidebar .occasion {
+	width: 245px;
+	background-image: url(images/sidebar-header.png);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+
+.sidebar .sidebar_header {
+	color: #ffffff;
+	font: bold 25px Arial, sans-serife;
+	letter-spacing: 3px;
+	width: 80px;
+	margin: auto;
+	margin-bottom: 13px;
+}
+.sidebar .wrapper-list {
+	background-image: url(images/background-list.png);
+	background-repeat: repeat-y;
+	padding-left: 30px;
+	box-sizing: border-box;
+	margin-left: 9px;
+}
+
+.sidebar .sidebar_link {
+	height: 22px;
+	font: bold 16px Arial, sans-serife;
+	color: #696868;
+	text-decoration: none;
+	display: block;
+	padding: 6px;
+}
+
+.sidebar .sidebar_link:hover {
+	color: #282727;
+}
+
+.sidebar .list_footer {
+	background-image: url(images/sidebar-footer.png);
+	background-repeat: no-repeat;
+	height: 12px;
+	margin-left: 9px;
+}
+
+.sidebar .flower_nav {
+	width: 245px;
+	background-image: url(images/sidebar-header.png);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	box-sizing: border-box;
+	margin-bottom: 34px;
+}
+
+.sidebar .advertisement {
+	margin: 0 0 12px 9px;
+}
+		/*End block sidebar*/
+
+.wrapper-content .content {
+	float: right;
+	width: 722px;	
+	margin-top: 9px;
+}		
+		
+		/*Begin block gallery*/
+.content .gallery {
+	background-image: url(images/background_gallery_header.png);
+	background-repeat: no-repeat;
+	padding: 17px 0px 0px 3px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+/*gallery classes*/
+
+.gallery .gallery_header {
+	color: #ffffff;
+	font: bold 25px Arial, sans-serife;
+	letter-spacing: 3px;
+	width: 120px;
+	margin: 0 0 46px 70px;
+}
+
+.gallery .gallery_content {
+	background-image: url(images/background_gallery.png);
+	background-repeat: repeat-y;
+	padding-left: 5px;
+}
+
+.gallery .gallery_content:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.gallery .wrapper_flowers {
+	float: left;
+	width: 220px;
+	height: 300px;
+	margin: 0 0 12px 12px;
+}
+
+.gallery .flovers_img {
+	display: block;
+	width: 212px;
+	height: 212px;
+	border: 4px solid #eaeae4;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.gallery .flowers_header {
+	font: bold 15px Arial, sans-serife;
+	color: #696868;
+	margin-bottom: 5px;
+}
+
+.gallery .flowers_number {
+	font: 15px Arial, sans-serife;
+	color: #999999;
+	margin-bottom: 5px;
+}
+
+.gallery .flowers_price {
+	float: right;
+	color: #696868;
+}
+
+.gallery .gallery_footer {
+	background-image: url(images/gallery_footer.png);
+	background-repeat: no-repeat;
+	height: 26px;
+}
+		/*End block gallery*/
+
+.content .content_advertisement {
+	margin-left: 3px;
+}	
+
+		/*Begin block footer*/
+
+.wrapper .footer {
+	width: 980px;
+	overflow: hidden;
+	margin: auto;
+	background-image: url(images/background_footer.png);
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 60px;
+	box-sizing: border-box;
+	clear: both;
+}
+
+/*footer classes*/
+
+.footer .footer_nav {
+	height: 34px;
+	width: 600px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.footer .footer_nav_line {
+	float: left;
+	height:34px;
+}
+
+.footer .footer_nav_link {
+	display: block;
+	height: 25px;
+	font: bold 16px Arial, sans-serife;
+	color: #34670f;
+	text-shadow:3px 3px 9px #a1d636;
+	text-decoration: none;
+	padding: 9px 20px 1px 20px;
+}
+
+.footer .footer_nav_link:hover {
+	color: #263914;
+}
+
+.footer .bottom_nav {
+	margin-bottom: 65px;
+}
+
+.footer .bottom_nav_line {
+	float: left;
+	background-image: url(images/delimiter_bottom_nav.png);
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+}
+
+.footer .bottom_nav_link {
+	font: 12px Arial, sans-serife;
+	color: #eaeae4;
+	text-decoration: none;
+	padding: 22px;
+}
+
+.footer li:first-child {
+	background: none;
+}
+
+.footer .inform {
+	font: 12px Arial, sans-serife;
+	color: #eaeae4;
+	padding: 5px;
+}
+
+.footer .social {
+	position: absolute;
+	top: 161px;
+	right: 51px;
+}
+
+.footer .social_link {
+	text-decoration: none;
+}
+
+		/*End block footer*/
